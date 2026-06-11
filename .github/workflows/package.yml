@@ -2,7 +2,7 @@ name: Create nuget package
 on: 
   push:
     branches:
-      - "dev"
+      - "master"
 permissions: write-all
 jobs:
   create-nuget-package:
